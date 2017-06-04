@@ -1,7 +1,7 @@
 <template>
-  <div class="funnel-chart">
+  <div class="funnel-chart-panel">
     <header>
-      <h3>漏斗图表</h3>
+      <p class="title">漏斗图表</p>
       <p>用<code>table</code>元素布局，实现漏斗图表和列表结合，实现数据展示</p>
     </header>
     <table style="width: 100%" cellpadding="0" cellspacing="0">
@@ -43,7 +43,6 @@
   import echarts from 'echarts'
   export default {
     name: 'funnel-chart',
-    components: {},
     data () {
       return {
         chartTitle: '漏斗标题',  // 漏斗标题
@@ -145,7 +144,11 @@
     padding: 10px 0;
     text-align: left;
   }
-  .funnel-chart {
+  header .title {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .funnel-chart-panel {
     height: 100%;
   }
   #funnel-chart {

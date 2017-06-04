@@ -11,6 +11,7 @@ https://do-developer.github.io/charts-yoyo/example/index.html
 
 ### 文件
 * /config  配置文件，vue-loader及webpack配置
+* /disc  bundle文件，index.html引用的js文件的打包合集
 * /example  展示组件示例文件，结合vue2开发
 * /src  图表组件源码
 

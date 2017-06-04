@@ -4,14 +4,17 @@
       <h1>charts yo yo 业务应用图表示例</h1>
     </header>
     <funnel-chart />
+    <compare-charts />
   </div>
 </template>
 <script>
   import FunnelChart from '../src/funnel-chart'
+  import CompareCharts from '../src/compare-charts'
   export default {
     name: 'app',
     components: {
-      FunnelChart
+      FunnelChart,
+      CompareCharts
     }
   }
 </script>
